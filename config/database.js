@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const connectDB = ()=>{
-    mongoose.connect('mongodb+srv://ishu_zx:chucha46024@todo-list.n9rypz4.mongodb.net/?appName=Todo-list')
+    mongoose.connect('mongodb+srv://ishu_zx:chucha46024@student-data.bjw1yve.mongodb.net/?appName=Student-data')
     .then(()=>{console.log('MongoDb connected!')})
 }
 
